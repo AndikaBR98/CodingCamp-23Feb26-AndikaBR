@@ -1,5 +1,5 @@
 // Welcome Text
-let userName = prompt("Masukan Nama Anda disini : ");
+let userName = prompt("Masukan Nama Anda Disini : ");
 if (userName) {
   document.getElementById("welcomeText").innerText =
     "Hi " + userName + ", Welcome To Website";
