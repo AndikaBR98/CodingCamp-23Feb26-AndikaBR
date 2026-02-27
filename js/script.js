@@ -37,7 +37,6 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
         <h3>PESAN</h3>
         <br>
         <p><strong>Current time:</strong> ${tanggalInput} - ${jamInput}</p>
-        <br>
         <p><strong>Nama:</strong> ${name}</p>
         <p><strong>Nama:</strong> ${email}</p>
         <p><strong>Nama:</strong> ${nomer}</p>
