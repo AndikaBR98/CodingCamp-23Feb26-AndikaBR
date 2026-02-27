@@ -1,0 +1,306 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    background: linear-gradient(to right, #f5f7fa, #c3cfe2);
+}
+
+/* HEADER */
+header {
+    padding: 15px 40px;
+    border-bottom: 2px solid #000;
+}
+
+.nav-cell {
+    text-align: right;
+    font-size: 18px;
+}
+
+.nav-cell a {
+    text-decoration: none;
+    color: black;
+    margin: 0 12px;
+    font-weight: 500;
+}
+
+.nav-cell a:hover {
+    text-decoration: underline;
+}
+
+/* BANNER */
+.banner {
+    padding: 80px 10%;
+    border-bottom: 2px solid #000;
+    text-align: left;
+}
+
+.banner h1 {
+    margin-bottom: 20px;
+}
+
+.banner-box img {
+    width: 100%;
+    max-height: 600px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px;
+}
+
+/* PROFILE */
+.profile-section {
+    padding: 60px 10%;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.profile-container {
+    margin-top: 30px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+/* VISI MISI */
+.visimisi-section {
+    padding: 60px 10%;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.visimisi-container {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.visimisi-box {
+    width: 400px;
+    border: 2px solid #000;
+    padding: 25px;
+    background: white;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.visimisi-box h2 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.visimisi-box ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+/* HQ */
+.hq {
+    padding: 60px 10%;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.hq-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.hq-item a {
+    text-decoration: none;
+    color: black;
+}
+
+.hq-item a:hover {
+    transform: scale(1.05);
+    display: inline-block;
+    transition: 0.3s;
+}
+
+.circle {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* PORTFOLIO */
+.portfolio {
+    padding: 60px 10%;
+    border-bottom: 2px solid #000;
+    text-align: center;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.portfolio-item {
+    width: 300px;
+    border: 2px solid #000;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+}
+
+.portfolio-item img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.portfolio-item p {
+    font-size: 14px;
+}
+
+/* MESSAGE */
+.message-section {
+    padding: 60px 10%;
+}
+
+.message-container {
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+
+.form-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-box label {
+    font-size: 19px;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.result-box {
+    flex: 1;
+    border: 2px solid #000;
+    padding: 10px;
+    min-height: 220px;
+    background: white;
+
+    white-space: pre-line;
+}
+
+
+
+
+.form-box input,
+.form-box textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #000;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.form-box textarea {
+    resize: none;
+    min-height: 120px;
+}
+
+.form-box button {
+    padding: 12px;
+    border: 1px solid #000;
+    background: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 6px;
+}
+
+.form-box button:hover {
+    background: black;
+    color: white;
+}
+
+.radio-group input[type="radio"] {
+    transform: scale(1.5);
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.radio-group label {
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+/* FOOTER */
+footer {
+    text-align: right;
+    padding: 15px 40px;
+    border-top: 2px solid #000;
+    font-size: 14px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+
+    header {
+        text-align: center;
+    }
+
+    .nav-cell {
+        text-align: center;
+        margin-top: 15px;
+        line-height: 1.8;
+    }
+
+    .banner {
+        padding: 40px 20px;
+        text-align: center;
+    }
+
+    .visimisi-box {
+        width: 100%;
+    }
+
+    .hq-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .message-container {
+        flex-direction: column;
+    }
+
+    .circle {
+        width: 180px;
+        height: 180px;
+    }
+}

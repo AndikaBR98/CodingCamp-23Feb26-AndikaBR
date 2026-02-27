@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <header>
+    <table width="100%">
+      <tr>
+        <td width="30%">
+          <img src="images/logo.jpg" alt="Logo" height="50">
+        </td>
+        <td class="nav-cell">
+          <a href="#home">Home</a> |
+          <a href="#profile">Profile</a> |
+          <a href="#visimisi">Visi Misi</a> |
+          <a href="#destinasi">Destinasi</a> |
+          <a href="#portfolio">Portofolio</a> |
+          <a href="#message">Message Us</a>
+        </td>
+      </tr>
+    </table>
+  </header>
+
+  <!-- Banner -->
+  <section id="home" class="banner">
+    <h1 id="welcomeText">Hi My Name Andika B R , Welcome To Website</h1>
+    <p>Ini adalah website latihan pertama.</p>
+    <br>
+    <div class="banner-box"><img src="images/banner.jpg"></div>
+  </section>
+
+  <!-- Profile -->
+<section id="profile" class="profile-section">
+  <h1>Profile</h1>
+  <div class="profile-container">
+    <p>
+      Website ini dibuat sebagai media pembelajaran dan pengembangan kemampuan
+      di bidang Web Development, khususnya dalam memahami dasar-dasar
+      HTML, CSS, dan JavaScript. Proyek ini menjadi langkah awal dalam
+      membangun pemahaman tentang bagaimana sebuah website dirancang,
+      dikembangkan, dan ditampilkan secara profesional.
+    </p>
+    <br>
+    <p>
+      Dalam proses pembuatannya, website ini berfokus pada struktur dasar
+      halaman (semantic HTML), pengaturan tata letak (layouting), desain visual
+      menggunakan CSS, serta interaksi sederhana menggunakan JavaScript.
+      Setiap bagian halaman dirancang untuk melatih pemahaman tentang
+      elemen, atribut, dan form handling.
+    </p>
+    <br>
+    <p>
+      Selain itu, konsep responsive design juga diterapkan agar tampilan website
+      dapat menyesuaikan berbagai ukuran layar, mulai dari desktop, tablet,
+      hingga perangkat mobile. Hal ini penting karena saat ini mayoritas pengguna
+      mengakses website melalui perangkat mobile.
+    </p>
+    <br>
+    <p>
+      Website ini juga menjadi sarana eksplorasi dalam memahami praktik
+      terbaik pengembangan web modern, seperti penggunaan struktur kode yang
+      rapi, pemisahan file HTML, CSS, dan JavaScript, serta optimasi tampilan
+      agar tetap ringan dan cepat diakses.
+    </p>
+  </div>
+</section>
+
+<!-- Visi Misi -->
+<section id="visimisi" class="visimisi-section">
+  <h1>Visi & Misi</h1>
+
+  <div class="visimisi-container">
+
+    <div class="visimisi-box">
+      <h2>Visi</h2>
+      <p>
+        Menjadi media pembelajaran web dasar yang membantu memahami konsep
+        pengembangan website modern secara sederhana dan efektif.
+      </p>
+    </div>
+
+    <div class="visimisi-box">
+      <h2>Misi</h2>
+      <ol>
+        <li>Mempelajari struktur dasar HTML untuk membangun website</li>
+        <li>Menerapkan CSS untuk memperindah tampilan website</li>
+        <li>Memahami dasar JavaScript untuk interaksi pengguna</li>
+        <li>Mengembangkan website pembelajaran yang responsif</li>
+      </ol>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Our Headquarter -->
+<section id="destinasi" class="hq">
+  <h1>Destinasi</h1>
+  <div class="hq-container">
+
+    <div class="hq-item">
+      <a href="https://id.wikipedia.org/wiki/Jakarta" target="_blank">
+        <div class="circle">
+          <img src="images/jakarta.jpg" alt="jakarta">
+        </div>
+        <h3>Jakarta</h3>
+      </a>
+    </div>
+
+    <div class="hq-item">
+      <a href="https://id.wikipedia.org/wiki/Bandung" target="_blank">
+        <div class="circle">
+          <img src="images/bandung.jpg" alt="bandung">
+        </div>
+        <h3>Bandung</h3>
+      </a>
+    </div>
+
+    <div class="hq-item">
+      <a href="https://id.wikipedia.org/wiki/Surabaya" target="_blank">
+        <div class="circle">
+          <img src="images/surabaya.jpg" alt="surabaya">
+        </div>
+        <h3>Surabaya</h3>
+      </a>
+    </div>
+
+  </div>
+</section>
+
+  <!-- Portofolio -->
+  <section id="portfolio" class="portfolio">
+    <h1>Portofolio</h1>
+
+    <div class="portfolio-container">
+
+      <div class="portfolio-item">
+        <img src="images/logo.jpg" alt="Logo">
+        <h2>Website Company</h2>
+        <p>Website company profile menggunakan HTML, CSS, dan JavaScript.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Message Us -->
+  <section id="message" class="message-section">
+    <h1>Message Us</h1>
+
+    <div class="message-container">
+
+      <!-- Form -->
+      <form id="contactForm" class="form-box">
+
+        <label for="name">Nama</label>
+        <input type="text" id="name" name="name" placeholder="Masukan Nama Anda" required>
+
+        <label for="name">Email</label>
+        <input type="text" id="email" name="email" placeholder="Masukan Email Anda" required>
+
+         <label for="name">No. HP</label>
+        <input type="tel" id="nomer" name="nomer" placeholder="Masukan Nomor HP Anda diawali dengan 08xx" pattern="^08[0-9]{8,11}$" required>
+
+         <label for="tanggalLahir">Tanggal Lahir</label>
+        <input type="text" id="tanggalLahir" name="tanggalLahir" placeholder="Pilih tanggal lahir" required>
+
+        <label>Jenis Kelamin</label>
+        <div class="radio-group">
+          <input type="radio" id="laki" name="jenisKelamin" value="Laki-laki" required>
+          <label for="laki">Laki-laki</label>
+
+          <input type="radio" id="perempuan" name="jenisKelamin" value="Perempuan">
+          <label for="perempuan">Perempuan</label>
+        </div>
+
+        <label for="messageText">Pesan</label>
+        <textarea id="messageText" name="messageText" placeholder="Tinggalkan Pesan Disini ya ..." required></textarea>
+
+        <button type="submit">Submit</button>
+
+      </form>
+
+      <!-- Result -->
+      <div id="result" class="result-box">
+        <h3>PESAN</h3>
+      </div>
+
+    </div>
+
+  </section>
+
+<footer style="text-align: center;">
+  <div>
+    <p>© 2026 Andika BR | Coding Camp</p>
+  </div>
+</footer>
+
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      flatpickr("#tanggalLahir", {
+        dateFormat: "d-m-Y",
+        maxDate: "today"
+      });
+    });
+  </script>
+</body>
+
+</html>
